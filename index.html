@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Checkout</title>
+</head>
+<body>
+    <header><h1>Checkout</h1></header>
+
+    <main>
+        <div class="empty-cart"> 
+            <p>Your cart is empty.</p>
+            <img src="./emptycart.png" alt=""> 
+        </div>
+
+        <div class="product product-1">
+            <div><img src="./photo1.png" alt=""></div>
+
+            <div class="info">
+                <p class="product-name">Vintage Backbag</p>
+                <p class="text-type1">$<span class="product-fee">25.98</span> <span class="text-type2">$34.99</span></p>
+            <div class="product-pieces"><button class="ascend">-</button><p class="product-pieces-par">1</p><button class="descend">+</button></div>
+            <button class="remove-button">Remove</button>
+            <p class="product-stock">In Stock: <span>15</span></p>
+            <p>Product Total: $<span class="product-total">25.98</span></p>
+
+            </div>
+
+        </div>
+        <div class="product product-2">
+            <div><img src="./photo2.png" alt=""></div>
+            <div class="info">
+                <p class="product-name">Levi Shoes</p>
+                <p class="text-type1">$<span class="product-fee">45.99</span> <span class="text-type2">$54.99</span></p>
+            <div class="product-pieces"><button class="ascend">-</button><p class="product-pieces-par">1</p><button class="descend">+</button></div>
+            <button class="remove-button">Remove</button>
+            <p class="product-stock">In Stock: <span>15</span></p>
+            <p>Product Total: $<span class="product-total">54.99</span></p>
+        </div>
+        </div>
+        <div class="product product-3">
+            <div><img src="./photo3.jpg" alt=""></div>
+            <div class="info">
+                <p class="product-name">Antique Clock</p>
+                <p class="text-type1">$<span class="product-fee">74.99</span>  <span class="text-type2">$94.99</span></p>
+            <div class="product-pieces"><button class="ascend">-</button><p class="product-pieces-par">1</p><button class="descend">+</button></div>
+            <button class="remove-button">Remove</button>
+            <p class="product-stock">In Stock: <span>15</span></p>
+            <p>Product Total: $<span class="product-total">74.99</span></p>
+        </div>
+        </div>
+        <footer>
+
+            <div>
+                <p class="first">Subtotal</p>
+                <p class="second">$<span class="subtotal">146.96</span></p>
+            </div>
+            <div>
+                <p class="first">Tax(%18)</p>
+                <p class="second">$<span class="tax">26.45</span></p>
+            </div>
+            <div>
+                <p class="first">Shipping</p>
+                <p class="second">$<span class="shipping">15</span></p>
+            </div>
+            <div>
+                <p class="first">Total</p>
+                <p class="second">$<span class="total">188.41</span></p>
+            </div>
+
+        </footer>
+        
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
